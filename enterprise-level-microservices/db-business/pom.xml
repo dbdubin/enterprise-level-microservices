@@ -7,6 +7,7 @@
         <groupId>com.dub</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
     <artifactId>db-business</artifactId>
     <description>业务中心</description>

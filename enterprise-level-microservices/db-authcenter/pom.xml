@@ -9,15 +9,50 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <packaging>jar</packaging>
     <artifactId>db-authcenter</artifactId>
     <description>认证中心</description>
 
     <dependencies>
+        <!--统一配置中心-->
         <dependency>
             <groupId>com.dub</groupId>
             <artifactId>db-config</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--auth模块-->
+        <dependency>
+            <groupId>com.dub</groupId>
+            <artifactId>db-auth-client-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--数据库相关-->
+        <dependency>
+            <groupId>com.dub</groupId>
+            <artifactId>db-db-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--ribbon-->
+        <dependency>
+            <groupId>com.dub</groupId>
+            <artifactId>db-ribbon-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--swagger-->
+        <dependency>
+            <groupId>com.dub</groupId>
+            <artifactId>db-swagger2-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--限流-->
+        <dependency>
+            <groupId>com.dub</groupId>
+            <artifactId>db-sentinel-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -39,6 +74,7 @@
             <groupId>com.github.whvcse</groupId>
             <artifactId>easy-captcha</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -47,15 +83,18 @@
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-data-redis</artifactId>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
         <!-- hutool java工具类库  -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
         </dependency>
+
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>

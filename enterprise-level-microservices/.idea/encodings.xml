@@ -5,6 +5,18 @@
     <file url="file://$PROJECT_DIR$/db-authcenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-business" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-business/db-usercenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-auth-client-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-common-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-db-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-log-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-redis-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-ribbon-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-sentinel-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-commons/db-swagger2-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db-transaction/db-tx" charset="UTF-8" />
   </component>
 </project>

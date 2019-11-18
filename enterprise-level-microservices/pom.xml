@@ -11,6 +11,9 @@
         <module>db-config</module>
         <module>db-authcenter</module>
         <module>db-business</module>
+        <module>db-gateway</module>
+        <module>db-transaction</module>
+        <module>db-commons</module>
     </modules>
     <packaging>pom</packaging>
 
