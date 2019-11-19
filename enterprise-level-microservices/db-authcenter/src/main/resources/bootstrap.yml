@@ -1,25 +1,25 @@
 server:
   port: 8000
 
-zlt:
+db:
   nacos:
-    server-addr: 192.168.28.130:8848
+    server-addr: localhost:8851
 
 spring:
   application:
-    name: uaa-server
+    name: db-auth
   cloud:
     nacos:
       config:
-        server-addr: ${zlt.nacos.server-addr}
+        server-addr: ${db.nacos.server-addr}
         file-extension: yml
         shared-dataids: common.yml
         refreshable-dataids: common.yml
       discovery:
-        server-addr: ${zlt.nacos.server-addr}
+        server-addr: ${db.nacos.server-addr}
 
 encrypt:
   key-store:
-    location: classpath:zlt.jks
+    location: classpath:db.jks
     secret: zlt!@#$
     alias: zlt

@@ -1,12 +1,12 @@
 spring:
   datasource:
-    url: jdbc:mysql://${zlt.datasource.ip}:3306/oauth-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-    username: ${zlt.datasource.username}
-    password: ${zlt.datasource.password}
+    url: jdbc:mysql://${db.datasource.ip}:3306/oauth-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: ${db.datasource.username}
+    password: ${db.datasource.password}
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis-plus:
-  mapper-locations: classpath:/mapper/*Mapper.xml
+  mapper-locations: classpath:/mapper/*.xml
   #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage: com.central.oauth.model
   global-config:
@@ -23,7 +23,7 @@ zlt:
     title: 认证中心
     description: 认证中心接口文档
     version: 1.0
-    base-package: com.central.oauth.controller
+    base-package: com.central.oauth.rest
   security:
     code:
       # 忽略验证码的应用编号

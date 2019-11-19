@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="db-gateway" />
-        <module name="db-config" />
         <module name="db-log-spring-boot-starter" />
+        <module name="db-swagger2-spring-boot-starter" />
+        <module name="db-tx" />
         <module name="db-redis-spring-boot-starter" />
+        <module name="db-auth-client-spring-boot-starter" />
+        <module name="search-client" />
+        <module name="db-usercenter" />
+        <module name="db-sentinel-spring-boot-starter" />
+        <module name="db-gateway" />
         <module name="db-authcenter" />
         <module name="db-common-spring-boot-starter" />
-        <module name="db-sentinel-spring-boot-starter" />
-        <module name="db-usercenter" />
+        <module name="search-server" />
+        <module name="db-config" />
         <module name="db-db-spring-boot-starter" />
         <module name="db-ribbon-spring-boot-starter" />
-        <module name="db-tx" />
-        <module name="db-auth-client-spring-boot-starter" />
-        <module name="db-swagger2-spring-boot-starter" />
       </profile>
     </annotationProcessing>
   </component>

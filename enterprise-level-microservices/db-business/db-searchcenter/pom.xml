@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>db-business</artifactId>
+        <groupId>com.dub</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <description>搜索中心</description>
+    <packaging>pom</packaging>
+    <artifactId>db-searchcenter</artifactId>
+
+
+    <modules>
+        <!-- 客户端sdk -->
+        <module>search-client</module>
+        <!-- 服务端 -->
+        <module>search-server</module>
+    </modules>
+</project>
