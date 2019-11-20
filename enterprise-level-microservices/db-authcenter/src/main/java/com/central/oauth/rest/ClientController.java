@@ -1,7 +1,7 @@
 package com.central.oauth.rest;
 
-import com.central.common.model.PageResult;
-import com.central.common.model.Result;
+import com.central.common.entity.PageResult;
+import com.central.common.entity.Result;
 import com.central.oauth.dto.ClientDto;
 import com.central.oauth.model.Client;
 import com.central.oauth.service.IClientService;

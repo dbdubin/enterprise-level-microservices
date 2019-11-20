@@ -2,7 +2,7 @@ package com.central.search.client.service.impl;
 
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSONObject;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.search.client.feign.AggregationService;
 import com.central.search.client.feign.SearchService;
 import com.central.search.client.service.IQueryService;

@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.common.redis.properties.CacheManagerProperties",
+      "name": "db.cache-manager",
+      "type": "com.central.common.redis.properties.CacheManagerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.common.redis.properties.CacheManagerProperties",
+      "name": "db.cache-manager.configs",
+      "type": "java.util.List<com.central.common.redis.properties.CacheManagerProperties.CacheConfig>"
+    }
+  ]
+}

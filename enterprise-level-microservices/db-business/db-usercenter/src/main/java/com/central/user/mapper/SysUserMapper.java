@@ -2,7 +2,7 @@ package com.central.user.mapper;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.central.db.mapper.SuperMapper;
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysUser;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

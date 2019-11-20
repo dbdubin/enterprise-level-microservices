@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 
 /**
  * 角色菜单

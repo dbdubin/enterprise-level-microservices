@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.oauth2.common.properties.SecurityProperties",
+      "name": "db.security",
+      "type": "com.central.oauth2.common.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.oauth2.common.properties.SecurityProperties",
+      "name": "db.security.auth",
+      "type": "com.central.oauth2.common.properties.AuthProperties"
+    },
+    {
+      "sourceType": "com.central.oauth2.common.properties.SecurityProperties",
+      "name": "db.security.code",
+      "type": "com.central.oauth2.common.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.central.oauth2.common.properties.SecurityProperties",
+      "name": "db.security.ignore",
+      "type": "com.central.oauth2.common.properties.PermitProperties"
+    }
+  ]
+}

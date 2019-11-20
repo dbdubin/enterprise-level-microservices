@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 import com.central.user.mapper.SysMenuMapper;
 import com.central.user.service.ISysMenuService;
 

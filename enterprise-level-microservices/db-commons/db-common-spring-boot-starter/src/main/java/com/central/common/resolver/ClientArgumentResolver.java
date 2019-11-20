@@ -30,7 +30,7 @@ public class ClientArgumentResolver implements HandlerMethodArgumentResolver {
 
     /**
      * @param methodParameter       入参集合
-     * @param modelAndViewContainer model 和 view
+     * @param modelAndViewContainer entity 和 view
      * @param nativeWebRequest      web相关
      * @param webDataBinderFactory  入参解析
      * @return 包装对象

@@ -1,6 +1,6 @@
 package com.central.oauth.service;
 
-import com.central.common.model.Result;
+import com.central.common.entity.Result;
 
 import javax.servlet.http.HttpServletRequest;
 

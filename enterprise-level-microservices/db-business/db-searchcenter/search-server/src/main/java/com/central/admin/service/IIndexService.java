@@ -2,7 +2,7 @@ package com.central.admin.service;
 
 import com.central.admin.model.IndexDto;
 import com.central.admin.model.IndexVo;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 
 import java.util.Map;
 

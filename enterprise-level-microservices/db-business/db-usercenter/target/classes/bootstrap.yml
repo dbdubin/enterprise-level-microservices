@@ -1,0 +1,21 @@
+server:
+  port: 7000
+
+db:
+  nacos:
+    server-addr: localhost:8851
+
+spring:
+  application:
+    name: user-center
+  cloud:
+    nacos:
+      config:
+        server-addr: ${db.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${db.nacos.server-addr}
+#        metadata:
+#          version: zlt

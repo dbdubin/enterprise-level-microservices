@@ -2,7 +2,7 @@ package com.central.oauth.model;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.central.common.model.SuperEntity;
+import com.central.common.entity.SuperEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

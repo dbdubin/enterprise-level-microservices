@@ -6,7 +6,7 @@ import java.util.Map;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.central.db.mapper.SuperMapper;
 
-import com.central.common.model.SysRole;
+import com.central.common.entity.SysRole;
 import org.apache.ibatis.annotations.Param;
 
 /**

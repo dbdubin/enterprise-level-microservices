@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;
 import com.central.common.constant.CommonConstant;
 import com.central.common.context.TenantContextHolder;
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 import com.central.oauth2.common.properties.SecurityProperties;
 import com.central.oauth2.common.service.IPermissionService;
 import com.central.oauth2.common.util.AuthUtils;

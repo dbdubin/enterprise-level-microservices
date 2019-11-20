@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.central.common.constant.CommonConstant;
 import com.central.common.lock.DistributedLock;
-import com.central.common.model.*;
+import com.central.common.entity.*;
 import com.central.common.service.impl.SuperServiceImpl;
 import com.central.user.entity.SysRoleUser;
 import com.central.user.entity.SysUserExcel;

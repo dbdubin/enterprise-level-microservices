@@ -1,7 +1,7 @@
 package com.central.oauth.service.impl;
 
 import com.central.common.feign.UserService;
-import com.central.common.model.LoginAppUser;
+import com.central.common.entity.LoginAppUser;
 import com.central.oauth.service.ZltUserDetailsService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.DisabledException;

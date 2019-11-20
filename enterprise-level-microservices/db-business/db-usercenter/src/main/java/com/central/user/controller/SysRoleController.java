@@ -1,8 +1,8 @@
 package com.central.user.controller;
 
-import com.central.common.model.PageResult;
-import com.central.common.model.Result;
-import com.central.common.model.SysRole;
+import com.central.common.entity.PageResult;
+import com.central.common.entity.Result;
+import com.central.common.entity.SysRole;
 import com.central.user.service.ISysRoleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

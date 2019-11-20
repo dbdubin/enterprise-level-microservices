@@ -1,8 +1,8 @@
 package com.central.common.feign.fallback;
 
 import com.central.common.feign.UserService;
-import com.central.common.model.LoginAppUser;
-import com.central.common.model.SysUser;
+import com.central.common.entity.LoginAppUser;
+import com.central.common.entity.SysUser;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,7 @@
 package com.central.oauth.rest;
 
 import com.central.common.constant.SecurityConstants;
-import com.central.common.model.Result;
+import com.central.common.entity.Result;
 import com.central.oauth.service.IValidateCodeService;
 import com.wf.captcha.base.Captcha;
 import com.wf.captcha.GifCaptcha;

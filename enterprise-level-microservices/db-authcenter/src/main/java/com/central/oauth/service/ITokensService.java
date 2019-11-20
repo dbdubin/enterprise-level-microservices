@@ -1,6 +1,6 @@
 package com.central.oauth.service;
 
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.oauth.model.TokenVo;
 
 import java.util.Map;

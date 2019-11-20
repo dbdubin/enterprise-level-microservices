@@ -3,7 +3,7 @@ package com.central.oauth.service.impl;
 import cn.hutool.core.util.PageUtil;
 import cn.hutool.core.util.StrUtil;
 import com.central.common.constant.SecurityConstants;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.common.redis.template.RedisRepository;
 import com.central.oauth.model.TokenVo;
 import com.central.oauth.service.ITokensService;

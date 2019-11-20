@@ -1,7 +1,7 @@
 package com.central.oauth2.common.util;
 
 import com.central.common.constant.CommonConstant;
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;

@@ -2,7 +2,7 @@ package com.central.search.client.feign;
 
 import com.alibaba.fastjson.JSONObject;
 import com.central.common.constant.ServiceNameConstants;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.search.client.feign.fallback.SearchServiceFallbackFactory;
 import com.central.search.model.SearchDto;
 import org.springframework.cloud.openfeign.FeignClient;

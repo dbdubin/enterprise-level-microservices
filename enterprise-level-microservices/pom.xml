@@ -14,6 +14,7 @@
         <module>db-gateway</module>
         <module>db-transaction</module>
         <module>db-commons</module>
+        <module>db-web</module>
     </modules>
     <packaging>pom</packaging>
 

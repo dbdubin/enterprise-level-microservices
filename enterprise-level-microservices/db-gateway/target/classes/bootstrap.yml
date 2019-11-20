@@ -1,0 +1,22 @@
+server:
+  port: 9900
+  undertow:
+    buffer-size: 1024
+    direct-buffers: true
+
+db:
+  nacos:
+    server-addr: localhost:8851
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: ${db.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${db.nacos.server-addr}

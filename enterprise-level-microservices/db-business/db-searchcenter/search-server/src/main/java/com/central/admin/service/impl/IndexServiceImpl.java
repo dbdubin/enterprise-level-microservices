@@ -5,7 +5,7 @@ import com.carrotsearch.hppc.cursors.ObjectCursor;
 import com.central.admin.model.IndexDto;
 import com.central.admin.model.IndexVo;
 import com.central.admin.service.IIndexService;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequestBuilder;
 import org.elasticsearch.action.admin.indices.stats.IndexStats;
 import org.elasticsearch.action.admin.indices.stats.IndicesStatsRequestBuilder;

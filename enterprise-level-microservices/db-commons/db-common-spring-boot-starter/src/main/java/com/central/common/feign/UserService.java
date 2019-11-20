@@ -2,8 +2,8 @@ package com.central.common.feign;
 
 import com.central.common.constant.ServiceNameConstants;
 import com.central.common.feign.fallback.UserServiceFallbackFactory;
-import com.central.common.model.LoginAppUser;
-import com.central.common.model.SysUser;
+import com.central.common.entity.LoginAppUser;
+import com.central.common.entity.SysUser;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

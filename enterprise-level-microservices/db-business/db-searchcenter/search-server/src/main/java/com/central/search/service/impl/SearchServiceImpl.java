@@ -1,7 +1,7 @@
 package com.central.search.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.search.model.SearchDto;
 import com.central.search.service.ISearchService;
 import com.central.search.util.SearchBuilder;

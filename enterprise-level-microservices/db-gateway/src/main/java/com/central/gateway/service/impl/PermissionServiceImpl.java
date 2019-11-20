@@ -1,6 +1,6 @@
 package com.central.gateway.service.impl;
 
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 import com.central.gateway.feign.MenuService;
 import com.central.oauth2.common.service.impl.DefaultPermissionServiceImpl;
 import lombok.extern.slf4j.Slf4j;

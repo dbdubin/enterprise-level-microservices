@@ -2,7 +2,7 @@ package com.central.gateway.filter.pre;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.central.common.constant.SecurityConstants;
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysUser;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;

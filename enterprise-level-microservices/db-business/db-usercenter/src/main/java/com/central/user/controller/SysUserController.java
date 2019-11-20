@@ -4,7 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.central.common.annotation.LoginUser;
 import com.central.common.constant.CommonConstant;
-import com.central.common.model.*;
+import com.central.common.entity.*;
 import com.central.common.utils.ExcelUtil;
 import com.central.search.client.service.IQueryService;
 import com.central.search.model.LogicDelDto;

@@ -1,0 +1,19 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.log.properties.TraceProperties",
+      "name": "db.trace",
+      "type": "com.central.log.properties.TraceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.log.properties.TraceProperties",
+      "defaultValue": false,
+      "name": "db.trace.enable",
+      "description": "是否开启日志链路追踪",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

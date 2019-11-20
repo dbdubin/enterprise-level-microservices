@@ -5,11 +5,11 @@ import java.util.Map;
 import java.util.Set;
 
 import com.central.common.service.ISuperService;
-import com.central.common.model.PageResult;
-import com.central.common.model.Result;
-import com.central.common.model.LoginAppUser;
-import com.central.common.model.SysRole;
-import com.central.common.model.SysUser;
+import com.central.common.entity.PageResult;
+import com.central.common.entity.Result;
+import com.central.common.entity.LoginAppUser;
+import com.central.common.entity.SysRole;
+import com.central.common.entity.SysUser;
 import com.central.user.entity.SysUserExcel;
 
 /**

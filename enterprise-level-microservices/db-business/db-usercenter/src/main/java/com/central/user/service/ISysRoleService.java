@@ -2,9 +2,9 @@ package com.central.user.service;
 
 import java.util.Map;
 
-import com.central.common.model.PageResult;
-import com.central.common.model.Result;
-import com.central.common.model.SysRole;
+import com.central.common.entity.PageResult;
+import com.central.common.entity.Result;
+import com.central.common.entity.SysRole;
 import com.central.common.service.ISuperService;
 
 public interface ISysRoleService extends ISuperService<SysRole> {

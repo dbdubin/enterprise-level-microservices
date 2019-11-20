@@ -1,6 +1,6 @@
 package com.central.user.service.impl;
 
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 import com.central.common.service.impl.SuperServiceImpl;
 import com.central.user.entity.SysRoleMenu;
 import com.central.user.mapper.SysRoleMenuMapper;

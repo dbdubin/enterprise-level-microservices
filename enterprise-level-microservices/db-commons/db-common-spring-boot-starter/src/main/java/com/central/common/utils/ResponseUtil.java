@@ -1,6 +1,6 @@
 package com.central.common.utils;
 
-import com.central.common.model.Result;
+import com.central.common.entity.Result;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.MediaType;
 

@@ -1,0 +1,25 @@
+server:
+  port: 8000
+
+db:
+  nacos:
+    server-addr: localhost:8851
+
+spring:
+  application:
+    name: db-auth
+  cloud:
+    nacos:
+      config:
+        server-addr: ${db.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${db.nacos.server-addr}
+
+encrypt:
+  key-store:
+    location: classpath:db.jks
+    secret: zlt!@#$
+    alias: zlt

@@ -1,7 +1,7 @@
 package com.central.search.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.search.model.SearchDto;
 
 public interface ISearchService {

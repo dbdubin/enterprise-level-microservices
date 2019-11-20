@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.convert.Convert;
 import com.central.common.annotation.LoginUser;
 import com.central.common.constant.CommonConstant;
-import com.central.common.model.*;
+import com.central.common.entity.*;
 import com.central.user.service.ISysMenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

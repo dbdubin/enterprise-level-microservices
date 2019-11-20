@@ -10,10 +10,6 @@ import org.springframework.security.oauth2.provider.code.RandomValueAuthorizatio
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 
-/**
- * @author zlt
- * @date 2018/12/12
- */
 @Configuration
 public class ClientDetailsConfig {
     @Resource

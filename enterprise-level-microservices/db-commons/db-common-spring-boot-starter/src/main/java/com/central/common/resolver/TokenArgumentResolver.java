@@ -4,8 +4,8 @@ import cn.hutool.core.util.StrUtil;
 import com.central.common.annotation.LoginUser;
 import com.central.common.constant.SecurityConstants;
 import com.central.common.feign.UserService;
-import com.central.common.model.SysRole;
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysRole;
+import com.central.common.entity.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
@@ -42,7 +42,7 @@ public class TokenArgumentResolver implements HandlerMethodArgumentResolver {
 
     /**
      * @param methodParameter       入参集合
-     * @param modelAndViewContainer model 和 view
+     * @param modelAndViewContainer entity 和 view
      * @param nativeWebRequest      web相关
      * @param webDataBinderFactory  入参解析
      * @return 包装对象

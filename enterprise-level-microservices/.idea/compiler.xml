@@ -19,6 +19,7 @@
         <module name="db-common-spring-boot-starter" />
         <module name="search-server" />
         <module name="db-config" />
+        <module name="db-back-web" />
         <module name="db-db-spring-boot-starter" />
         <module name="db-ribbon-spring-boot-starter" />
       </profile>

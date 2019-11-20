@@ -1,6 +1,6 @@
 package com.central.oauth2.common.converter;
 
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysUser;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

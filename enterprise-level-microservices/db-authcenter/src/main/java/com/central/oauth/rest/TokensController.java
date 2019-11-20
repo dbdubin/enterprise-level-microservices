@@ -1,6 +1,6 @@
 package com.central.oauth.rest;
 
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.oauth.model.TokenVo;
 import com.central.oauth.service.ITokensService;
 import io.swagger.annotations.Api;

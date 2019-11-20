@@ -1,6 +1,6 @@
 package com.central.user.service.impl;
 
-import com.central.common.model.SysRole;
+import com.central.common.entity.SysRole;
 import com.central.common.service.impl.SuperServiceImpl;
 import com.central.user.entity.SysRoleUser;
 import com.central.user.mapper.SysUserRoleMapper;

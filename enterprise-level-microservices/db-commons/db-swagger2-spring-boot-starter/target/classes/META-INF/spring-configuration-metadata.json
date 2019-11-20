@@ -1,0 +1,124 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger",
+      "type": "com.central.common.swagger2.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.contact",
+      "type": "com.central.common.swagger2.SwaggerProperties$Contact"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.base-package",
+      "description": "swagger会解析的包路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.base-path",
+      "description": "swagger会解析的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "db.swagger.contact.email",
+      "description": "联系人email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "db.swagger.contact.name",
+      "description": "联系人",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "db.swagger.contact.url",
+      "description": "联系人url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.description",
+      "description": "描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.docket",
+      "description": "分组文档",
+      "type": "java.util.Map<java.lang.String,com.central.common.swagger2.SwaggerProperties.DocketInfo>"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.enabled",
+      "description": "是否开启swagger",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.exclude-path",
+      "description": "在basePath基础上需要排除的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "name": "db.swagger.global-operation-parameters",
+      "description": "全局参数配置",
+      "type": "java.util.List<com.central.common.swagger2.SwaggerProperties.GlobalOperationParameter>"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.host",
+      "description": "host信息",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.license",
+      "description": "许可证",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.license-url",
+      "description": "许可证URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.terms-of-service-url",
+      "description": "服务条款URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.title",
+      "description": "标题",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.central.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "db.swagger.version",
+      "description": "版本",
+      "type": "java.lang.String"
+    }
+  ]
+}

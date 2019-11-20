@@ -1,7 +1,7 @@
 package com.central.search.client.feign.fallback;
 
 import com.alibaba.fastjson.JSONObject;
-import com.central.common.model.PageResult;
+import com.central.common.entity.PageResult;
 import com.central.search.client.feign.SearchService;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;

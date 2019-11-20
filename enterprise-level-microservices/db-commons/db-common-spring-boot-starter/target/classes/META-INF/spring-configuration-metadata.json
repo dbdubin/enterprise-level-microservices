@@ -1,0 +1,31 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.common.properties.TenantProperties",
+      "name": "db.tenant",
+      "type": "com.central.common.properties.TenantProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.common.properties.TenantProperties",
+      "defaultValue": false,
+      "name": "db.tenant.enable",
+      "description": "是否开启多租户",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.central.common.properties.TenantProperties",
+      "name": "db.tenant.ignore-sqls",
+      "description": "配置不进行多租户隔离的sql 需要配置mapper的全路径如：com.central.user.mapper.SysUserMapper.findList",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.central.common.properties.TenantProperties",
+      "name": "db.tenant.ignore-tables",
+      "description": "配置不进行多租户隔离的表名",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

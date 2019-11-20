@@ -1,0 +1,40 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.central.common.ribbon.config.RestTemplateProperties",
+      "name": "db.rest-template",
+      "type": "com.central.common.ribbon.config.RestTemplateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.central.common.ribbon.config.RestTemplateProperties",
+      "defaultValue": 10000,
+      "name": "db.rest-template.connect-timeout",
+      "description": "链接超时时间 ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.central.common.ribbon.config.RestTemplateProperties",
+      "defaultValue": 50,
+      "name": "db.rest-template.max-per-route",
+      "description": "同路由最大并发数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.central.common.ribbon.config.RestTemplateProperties",
+      "defaultValue": 200,
+      "name": "db.rest-template.max-total",
+      "description": "最大链接数",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.central.common.ribbon.config.RestTemplateProperties",
+      "defaultValue": 35000,
+      "name": "db.rest-template.read-timeout",
+      "description": "读取超时时间 ms",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

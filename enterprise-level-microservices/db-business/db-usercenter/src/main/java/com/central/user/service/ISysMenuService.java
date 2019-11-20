@@ -3,7 +3,7 @@ package com.central.user.service;
 import java.util.List;
 import java.util.Set;
 
-import com.central.common.model.SysMenu;
+import com.central.common.entity.SysMenu;
 import com.central.common.service.ISuperService;
 
 public interface ISysMenuService extends ISuperService<SysMenu> {

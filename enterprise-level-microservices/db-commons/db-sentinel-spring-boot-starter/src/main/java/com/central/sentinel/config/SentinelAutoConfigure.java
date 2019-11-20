@@ -4,7 +4,7 @@ import cn.hutool.json.JSONUtil;
 import com.alibaba.csp.sentinel.adapter.servlet.callback.UrlBlockHandler;
 import com.alibaba.csp.sentinel.adapter.servlet.callback.WebCallbackManager;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.central.common.model.Result;
+import com.central.common.entity.Result;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

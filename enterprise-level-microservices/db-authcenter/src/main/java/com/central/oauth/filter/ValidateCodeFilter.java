@@ -67,7 +67,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         try {
-            validateCodeService.validate(request);
+//            validateCodeService.validate(request);
         } catch (ValidateCodeException e) {
             authenticationFailureHandler.onAuthenticationFailure(request, response, e);
             return;

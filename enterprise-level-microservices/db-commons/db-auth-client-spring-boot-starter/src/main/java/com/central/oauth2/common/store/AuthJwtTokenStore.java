@@ -1,6 +1,6 @@
 package com.central.oauth2.common.store;
 
-import com.central.common.model.SysUser;
+import com.central.common.entity.SysUser;
 import com.central.oauth2.common.converter.CustomUserAuthenticationConverter;
 import org.springframework.cloud.bootstrap.encrypt.KeyProperties;
 import org.springframework.context.annotation.Bean;

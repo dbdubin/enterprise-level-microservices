@@ -6,9 +6,6 @@ import lombok.Setter;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @author zlt
- */
 @Setter
 @Getter
 public class TokenVo implements Serializable {
